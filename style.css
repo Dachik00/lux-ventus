@@ -73,3 +73,52 @@
     justify-content: center;
     
 }
+
+/* ===========================SECTIOON STYLE!!!!!!!========================= */
+
+.background{
+    margin: 0 auto;
+    max-width: 1272px;
+    height: 559px;
+    background-image: url(./photos/1photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding-top: 218px;
+    padding-left: 57px;
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+    
+}
+
+.background{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background h3{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.background h1{
+    font-size: 46px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.background p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 490px;
+}
+
+.background span{
+    font-weight: 700;
+    font-size: 46px;
+    background: linear-gradient(to right, #4CE0D7, #8BA9F4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
