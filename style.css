@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* ==================HEADEEER STYLE!!!!============================ */
+.logo img{
+    width: 226px;
+    height: 49px;
+}
+
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 84px;
+    
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+}
+
+.nav a{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: #262626;
+    border-radius: 40px;
+    padding: 8px 25px;
+
+}
+
+.nav a:nth-child(1):hover,
+.nav a:nth-child(2):hover,
+.nav a:nth-child(3):hover,
+.nav a:nth-child(4):hover,
+.nav a:nth-child(5):hover {
+    background-color: #4CE0D7;
+    justify-content: center;
+    
+}
+.search i{
+    display: flex;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    top: 3px;
+    left: 3px;
+    border-width: 1.5px;
+    
+
+}
+
+.search i{
+    background-color: #4CE0D7;
+    width: 47px;
+    height: 47px;
+    border-radius:30px;
+    justify-content: center;
+    
+}
